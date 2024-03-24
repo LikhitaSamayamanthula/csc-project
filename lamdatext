@@ -1,6 +1,6 @@
 import boto3
 
-topic_arn = "Enter the arn here"
+topic_arn = "Enter the  SNS arn here"
 def send_sns(message, subject):
     try:
         client = boto3.client("sns")
